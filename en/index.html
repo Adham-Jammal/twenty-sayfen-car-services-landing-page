@@ -1,0 +1,132 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Welcome to our auto care services website. We specialize in car washing, maintenance, and transportation. Book an appointment with us today!">
+    <meta name="keywords" content="car washing, car maintenance, car transportation, automotive services, auto care">
+    <meta name="author" content="Sayfen">
+    <title>Twenty Sayfen - Car Services</title>
+    <link rel="icon" href="../assets/images/logo.png">
+    <link rel="stylesheet" href="../assets/css/en-style.css">
+</head>
+
+<body>
+    <header class="wrapper">
+        <nav id="main_nav" class="container">
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><a href="/"><img src="../assets/images/logo.png"
+                        alt="Logo"></a><img src="../assets/images/burger-menu.png" class="burger"
+                    alt="burger"></a></label>
+            <div class="content">
+                <div class="logo">
+                    <a href="#"><img src="../assets/images/logo.png" alt="Logo"></a>
+                </div>
+            </div>
+            <div class="content">
+                <ul class="links">
+                    <li><a href="#">Car Washing</a></li>
+                    <li><a href="#">Car Maintenance</a></li>
+                    <li><a href="#">Car Transportation</a></li>
+                    <li><a href="#">Transportation Services</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="text-content">
+                    <h1>Turn Your Car into a Work of Art on the Road!</h1>
+                    <p>All car care services are available with us. You can book now.</p>
+                    <a href="#">Book a session for your car</a>
+                </div>
+
+                <div class="images-content">
+                    <img src="../assets/images/car.png" alt="Hero Car Image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services-section">
+        <div class="container">
+            <div class="services">
+                <div class="service">
+                    <img src="../assets/images/services-icons/service-1.png" alt="service-1">
+                    <h5>Car Washing</h5>
+                </div>
+                <div class="service">
+                    <img src="../assets/images/services-icons/service-2.png" alt="service-2">
+                    <h5>Car Maintenance</h5>
+                </div>
+                <div class="service">
+                    <img src="../assets/images/services-icons/service-3.png" alt="service-3">
+                    <h5>Car Transportation</h5>
+                </div>
+                <div class="service">
+                    <img src="../assets/images/services-icons/service-4.png" alt="service-4">
+                    <h5>Road Services</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="form-section">
+        <div class="container">
+            <form id="booking-form">
+                <h2>Book a New Session</h2>
+                <div class="form-row">
+                    <div class="form-col">
+                        <select name="exampleSelect">
+                            <option value="" disabled selected>Service Type</option>
+                            <option value="option">Service 1</option>
+                        </select>
+                    </div>
+                    <div class="form-col">
+                        <input type="text" id="appointment" name="appointment" placeholder="Appointment Date">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-col">
+                        <input type="text" name="name" id="name" placeholder="Name">
+                    </div>
+                    <div class="form-col">
+                        <input type="email" name="email" id="email" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-col">
+                        <input type="number" name="phonenumber" id="phonenumber" placeholder="Phone Number">
+                    </div>
+                </div>
+                <div class="terms">
+                    <input type="checkbox" id="terms">
+                    <label for="terms">I agree to the terms and conditions</label>
+                </div>
+                <button class="send" type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <img class="footer-logo" src="../assets/images/footer-logo.png" alt="logo">
+        <div class="social-media">
+            <ul class="platforms">
+                <li class="platform"><a href="#"><img src="../assets/images/social-media-icons/insta-icon.png"
+                            alt=""></a></li>
+                <li class="platform"><a href="#"><img src="../assets/images/social-media-icons/snap-icon.png"
+                            alt=""></a>
+                </li>
+                <li class="platform"><a href="#"><img src="../assets/images/social-media-icons/whatsapp-icon.png"
+                            alt=""></a></li>
+            </ul>
+            <span class="rights">All right reserved 2023</span>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="../assets/js/en-main.js"></script>
+</body>
+
+</html>
