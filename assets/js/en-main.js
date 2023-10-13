@@ -47,3 +47,4 @@ document.addEventListener('DOMContentLoaded', function() {
 (function() {
     emailjs.init('wNP4GhSKjfusHOz68');
 })();
+AOS.init();
