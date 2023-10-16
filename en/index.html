@@ -8,7 +8,7 @@
     <meta name="keywords" content="car washing, car maintenance, car transportation, automotive services, auto care">
     <meta name="author" content="Sayfen">
     <title>Twenty Sayfen - Car Services</title>
-    <link rel="icon" href="../assets/images/logo.png">
+    <link rel="icon" href="../assets/images/fav.png">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/en-style.css">
 </head>
@@ -23,15 +23,16 @@
                     alt="burger"></a></label>
             <div class="content">
                 <div class="logo">
-                    <a href="#"><img src="../assets/images/logo.png" alt="Logo"></a>
+                    <a href="/en"><img src="../assets/images/logo.png" alt="Logo"></a>
                 </div>
             </div>
             <div class="content">
                 <ul class="links">
-                    <li><a href="#">Car Washing</a></li>
-                    <li><a href="#">Car Maintenance</a></li>
-                    <li><a href="#">Car Transportation</a></li>
-                    <li><a href="#">Transportation Services</a></li>
+                    <li><a href="#services">Car Washing</a></li>
+                    <li><a href="#services">Car Maintenance</a></li>
+                    <li><a href="#services">Car Transportation</a></li>
+                    <li><a href="#services">Transportation Services</a></li>
+                    <li><a href="/">العربية</a></li>
                 </ul>
             </div>
         </nav>
@@ -42,7 +43,7 @@
                 <div class="text-content">
                     <h1>Turn Your Car into a Work of Art on the Road!</h1>
                     <p>All car care services are available with us. You can book now.</p>
-                    <a href="#">Book a session for your car</a>
+                    <a href="#form">Book a session for your car</a>
                 </div>
 
                 <div class="images-content">
@@ -51,7 +52,7 @@
             </div>
         </div>
     </section>
-    <section class="services-section">
+    <section class="services-section" id="services">
         <div class="container">
             <div class="services">
                 <div class="service"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
@@ -73,7 +74,7 @@
             </div>
         </div>
     </section>
-    <section class="form-section">
+    <section class="form-section" id="form">
         <div class="container">
             <form id="booking-form">
                 <h2>Book a New Session</h2>
@@ -103,7 +104,7 @@
                 </div>
                 <div class="terms">
                     <input type="checkbox" id="terms">
-                    <label for="terms">I agree to the terms and conditions</label>
+                    <label for="terms"><a href="#">I agree to the terms and conditions</a></label>
                 </div>
                 <button class="send" type="submit">Send</button>
             </form>

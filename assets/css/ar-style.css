@@ -554,6 +554,10 @@ nav .content .links::before {
   font-size: 1.4rem;
   margin: 0 25px;
 }
+.terms label a{
+  color: var(--white);
+  text-decoration: underline;
+}
 
 .terms label:before {
   content:'';
