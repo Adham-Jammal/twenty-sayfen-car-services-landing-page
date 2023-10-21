@@ -53,19 +53,19 @@
     <section class="services-section" id="services">
         <div class="container">
             <div class="services">
-                <div class="service"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
+                <div class="service" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
                     <img src="./assets/images/services-icons/service-1.png" alt="service-1">
                     <h5>غسيل سيارات</h5>
                 </div>
-                <div class="service"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                <div class="service" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                     <img src="./assets/images/services-icons/service-2.png" alt="service-2">
                     <h5>صيانة سيارات</h5>
                 </div>
-                <div class="service"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
+                <div class="service" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
                     <img src="./assets/images/services-icons/service-3.png" alt="service-3">
                     <h5>نقل سيارات</h5>
                 </div>
-                <div class="service"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                <div class="service" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
                     <img src="./assets/images/services-icons/service-4.png" alt="service-4">
                     <h5>خدمات طريق</h5>
                 </div>
@@ -74,28 +74,30 @@
     </section>
     <section class="form-section" id="form">
         <div class="container">
-            <form id="booking-form"  data-aos="fade-up" data-aos-duration="2000">
-                <h2>حجز جلسة جديدة</h2>
+            <form id="booking-form" data-aos="fade-up" data-aos-duration="2000">
+                <!-- <h2>حجز جلسة جديدة</h2> -->
                 <div class="form-row">
                     <div class="form-col">
                         <select name="exampleSelect">
                             <option value="" disabled selected>نوع الخدمة</option>
-                            <option value="option">الخدمة الأولى</option>
+                            <option value="خدمات طريق">خدمات طريق</option>
+                            <option value="نقل سيارات">نقل سيارات</option>
+                            <option value="خدمات صيانة سيارات">صيانة سيارات </option>
+                            <option value="غسيل سيارات ">خدمات طريق</option>
                         </select>
                     </div>
                     <div class="form-col">
-                        <input type="text" id="appointment" name="appointment" placeholder="الموعد">
+                        <select id="appointment" name="appointment">
+                            <option value="" disabled selected> الموعد</option>
+                            <option value="9Am - 12Pm">9Am - 12Pm</option>
+                            <option value="4Pm - 10Pm">4Pm - 10Pm</option>
+                        </select>
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="form-col">
                         <input type="text" name="name" id="name" placeholder="الاسم">
                     </div>
-                    <div class="form-col">
-                        <input type="email" name="email" id="email" placeholder="الايميل">
-                    </div>
-                </div>
-                <div class="form-row">
                     <div class="form-col">
                         <input type="number" name="phonenumber" id="phonenumber" placeholder="رقم الهاتف">
                     </div>

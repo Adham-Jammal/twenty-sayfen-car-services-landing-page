@@ -55,19 +55,19 @@
     <section class="services-section" id="services">
         <div class="container">
             <div class="services">
-                <div class="service"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
+                <div class="service" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
                     <img src="../assets/images/services-icons/service-1.png" alt="service-1">
                     <h5>Car Washing</h5>
                 </div>
-                <div class="service"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                <div class="service" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                     <img src="../assets/images/services-icons/service-2.png" alt="service-2">
                     <h5>Car Maintenance</h5>
                 </div>
-                <div class="service"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
+                <div class="service" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
                     <img src="../assets/images/services-icons/service-3.png" alt="service-3">
                     <h5>Car Transportation</h5>
                 </div>
-                <div class="service"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                <div class="service" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
                     <img src="../assets/images/services-icons/service-4.png" alt="service-4">
                     <h5>Road Services</h5>
                 </div>
@@ -77,27 +77,29 @@
     <section class="form-section" id="form">
         <div class="container">
             <form id="booking-form">
-                <h2>Book a New Session</h2>
+                <!--<h2>Book a New Session</h2>-->
                 <div class="form-row">
                     <div class="form-col">
                         <select name="exampleSelect">
                             <option value="" disabled selected>Service Type</option>
-                            <option value="option">Service 1</option>
+                            <option value="Car Washing">Car Washing</option>
+                            <option value="Car Maintenance">Car Maintenance</option>
+                            <option value="Car Transportation">Car Transportation</option>
+                            <option value="Transportation Services">Transportation Services</option>
                         </select>
                     </div>
                     <div class="form-col">
-                        <input type="text" id="appointment" name="appointment" placeholder="Appointment Date">
+                        <select id="appointment" name="appointment">
+                            <option value="" disabled selected>Appointment Date</option>
+                            <option value="9Am - 12Pm">9Am - 12Pm</option>
+                            <option value="4Pm - 10Pm">4Pm - 10Pm</option>
+                        </select>
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="form-col">
                         <input type="text" name="name" id="name" placeholder="Name">
                     </div>
-                    <div class="form-col">
-                        <input type="email" name="email" id="email" placeholder="Email">
-                    </div>
-                </div>
-                <div class="form-row">
                     <div class="form-col">
                         <input type="number" name="phonenumber" id="phonenumber" placeholder="Phone Number">
                     </div>

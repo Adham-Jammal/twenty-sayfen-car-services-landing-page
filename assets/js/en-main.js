@@ -5,12 +5,11 @@ document.addEventListener('DOMContentLoaded', function() {
         e.preventDefault();
 
         const name = document.getElementById('name').value;
-        const email = document.getElementById('email').value;
         const phonenumber = document.getElementById('phonenumber').value;
         const appointment = document.getElementById('appointment').value;
         const terms = document.getElementById('terms').checked;
 
-        if (!name || !email || !phonenumber || !appointment || !terms) {
+        if (!name  || !phonenumber || !appointment || !terms) {
             Swal.fire({
                 icon: 'error',
                 title: 'Error',
@@ -23,7 +22,6 @@ document.addEventListener('DOMContentLoaded', function() {
         var templateParams = {
             name: name,
             phonenumber: phonenumber,
-            email: email,
             appointment: appointment,
         };
         emailjs.send('service_syupqnu', 'template_lu89yob' ,templateParams)
